@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+.mplconfig/
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+
+# Participant-level inputs, downloaded third-party material, and derived outputs.
+/outputs/
+/references/
+/data/
+/raw_data/
+*.joblib
+*.pkl
+*.pickle
+*.zip
+*.rar
+
+# Local credentials and machine-specific configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key

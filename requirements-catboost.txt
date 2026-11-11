@@ -1,0 +1,2 @@
+-r requirements-model.txt
+catboost==1.2.10
